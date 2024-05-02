@@ -1,0 +1,12 @@
+object addition{
+	def main(args:Array[String]): Unit ={
+	println("Enter first number: ")
+	val number1=scala.io.StdIn.readLine().toDouble
+	println("Enter second number: ")
+	val number2=scala.io.StdIn.readLine().toDouble
+	
+	val sum=number1+number2
+	
+	println(s"The sum is : $sum")
+	}
+}
